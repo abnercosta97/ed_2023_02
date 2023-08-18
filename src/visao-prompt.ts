@@ -5,7 +5,7 @@ import prompt_sync from "prompt-sync";
 const prompt = prompt_sync();
 let opcao: string = prompt("Digite sua opção: ");
 
-let escolher:string|number;
+let escolher:string;
 escolher = opcao;
 let resultado:number;
 
