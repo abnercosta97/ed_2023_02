@@ -6,12 +6,14 @@
   "scripts": {
     "um": "ts-node ./src/pratica1.1",
     "visao": "ts-node ./src/visao",
-    "modelo": "ts-node ./src/modelo"
+    "modelo": "ts-node ./src/modelo",
+    "prompt": "ts-node ./src/visao-prompt"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/prompt-sync": "^4.2.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
   },

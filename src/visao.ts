@@ -1,7 +1,12 @@
 import {somar, subtrair, despedir} from "./modelo"
 
+//import prompt_sync from "prompt-sync";
+
+//const prompt = prompt_sync();
+//let opcao: string = prompt("Digite sua opção: ");
+
 let escolher:string;
-escolher = "somar";
+escolher = "despedir";
 let resultado:number;
 
 switch (escolher){
