@@ -16,3 +16,6 @@ switch (escolher){
     case "despedir":
         console.log(despedir());
 }
+
+// Visão é ponto de interação com usuário. 
+// MVC (Modelo, Visão, Controlador)

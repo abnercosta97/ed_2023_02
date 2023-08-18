@@ -13,3 +13,5 @@ function despedir():string{
 export{
     somar, subtrair, despedir
 }
+// Modelo é pra colocar calculo, função etc. 
+// MVC (Modelo, Visão, Controlador)
