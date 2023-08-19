@@ -19,3 +19,9 @@ const a = new Pessoa("Abner", 26);
 const b = new Pessoa("Jéssica", 29);
 a.print();
 b.print();
+
+var array_de_numeros: number []; //questão e
+array_de_numeros = [];
+array_de_numeros.push(1);
+array_de_numeros.push(2);
+console.log(array_de_numeros);
