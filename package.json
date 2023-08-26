@@ -6,6 +6,7 @@
   "scripts": {
     "um": "ts-node ./src/pratica1.1",
     "tres": "ts-node ./src/pratica1.3",
+    "quatro": "ts-node ./src/pratica1.4",
     "cinco": "ts-node ./src/pratica1.5",
     "sete": "ts-node ./src/pratica1.7",
     "visao": "ts-node ./src/visao",
