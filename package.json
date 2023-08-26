@@ -10,6 +10,8 @@
     "cinco": "ts-node ./src/pratica1.5",
     "seis": "ts-node ./src/pratica1.6",
     "sete": "ts-node ./src/pratica1.7",
+    "oito": "ts-node ./src/pratica1.8",
+    "nove": "ts-node ./src/pratica1.9",
     "visao": "ts-node ./src/visao",
     "modelo": "ts-node ./src/modelo",
     "prompt": "ts-node ./src/visao-prompt"
