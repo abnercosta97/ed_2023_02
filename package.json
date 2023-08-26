@@ -8,7 +8,8 @@
     "visao": "ts-node ./src/visao",
     "modelo": "ts-node ./src/modelo",
     "prompt": "ts-node ./src/visao-prompt",
-    "cinco": "ts-node ./src/pratica1.5"
+    "cinco": "ts-node ./src/pratica1.5",
+    "sete": "ts-node ./src/pratica1.7"
   },
   "keywords": [],
   "author": "",
