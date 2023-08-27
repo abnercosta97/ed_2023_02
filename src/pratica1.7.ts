@@ -1,4 +1,4 @@
-import { duvidar, reclamar, sair } from "./modelo1.7";
+import { duvidar, reclamar, sair } from "./modelo.1.7";
 
 import prompt_sync from "prompt-sync";
 

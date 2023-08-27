@@ -16,6 +16,7 @@
     "onze-switch": "ts-node ./src/pratica1.11-switch",
     "doze": "ts-node ./src/pratica1.12",
     "treze": "ts-node ./src/pratica1.13",
+    "quinze": "ts-node ./src/pratica1.15",
     "visao": "ts-node ./src/visao",
     "modelo": "ts-node ./src/modelo",
     "prompt": "ts-node ./src/visao-prompt"
