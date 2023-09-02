@@ -19,7 +19,8 @@
     "quinze": "ts-node ./src/pratica1.15",
     "visao": "ts-node ./src/visao",
     "modelo": "ts-node ./src/modelo",
-    "prompt": "ts-node ./src/visao-prompt"
+    "prompt": "ts-node ./src/visao-prompt",
+    "doisum": "ts-node ./unidade2/exer2_1"
 
   },
   "keywords": [],
