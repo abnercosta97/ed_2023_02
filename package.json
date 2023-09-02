@@ -7,7 +7,7 @@
     "um": "ts-node ./src/pratica1.1",
     "tres": "ts-node ./src/pratica1.3",
     "quatro": "ts-node ./src/pratica1.4",
-    "cinco": "ts-node ./src/pratica1.5",
+    "cinco": "ts-node ./src/pratica1.5-view",
     "seis": "ts-node ./src/pratica1.6",
     "sete": "ts-node ./src/pratica1.7",
     "oito": "ts-node ./src/pratica1.8",

@@ -36,11 +36,8 @@ function comparar(palavra1: string, palavra2: string): string {
     }
 }
 
-const palavra1:string = prompt("Digite a primeira palavra: ");
-const palavra2:string = prompt("Digite a segunda palavra: ");
+export {transformar, comparar}
 
-const result = comparar(palavra1, palavra2);
-console.log(`A palavra "${result}" aparece antes na ordem alfabética.`);
 
 
 /*
