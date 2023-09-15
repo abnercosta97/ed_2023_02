@@ -20,7 +20,8 @@
     "visao": "ts-node ./src/visao",
     "modelo": "ts-node ./src/modelo",
     "prompt": "ts-node ./src/visao-prompt",
-    "doisum": "ts-node ./unidade2/exer2_1"
+    "doisum": "ts-node ./unidade2/exer2_1",
+    "tcdoisdois":"ts-node ./unidade2/tc2_2"
 
   },
   "keywords": [],
