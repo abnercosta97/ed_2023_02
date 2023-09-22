@@ -10,12 +10,12 @@ escolher = opcao;
 
 
 switch (escolher) {
-  case "Duvidas":
+  case "1":
     console.log(duvidar());
     break;
-  case "Reclamação":
+  case "2":
     console.log(reclamar());
     break;
-  case "Sair":
+  case "3":
     console.log(sair());
 }
