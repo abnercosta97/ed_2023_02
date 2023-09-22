@@ -12,7 +12,9 @@ function transformar(palavra: string): number[] {
         else if (numero >= 97 && numero <= 122) // Latin - minúsculo
             numeros.push(numero - 96);
     }
+    //console.log(numeros);
     return numeros;
+
 }
 
 function comparar(palavra1: string, palavra2: string): string {

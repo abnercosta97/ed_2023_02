@@ -1,24 +1,33 @@
-import { 
-    Pessoa,
-    caracteres, 
-    numero, 
-    array, 
-    arraynum, 
-    pessoa, 
+import {
+  Pessoa,
+  caracteres,
+  numero,
+  array,
+  arraynum,
+  pessoa,
 } from "./modelo.1.15";
 
-function alterar(caracteres:string , numero:number , array: string[] , arraynum: number[], pessoa:Pessoa): any {
-    caracteres = "Hello";
-    numero = 50;
-    array = ["abelha", "macaco", "cachorro"];
-    arraynum = [4,5,6];
-    pessoa = new Pessoa("Bob",30);
+function alterar(
+  caracteres: string,
+  numero: number,
+  array: string[],
+  arraynum: number[],
+  pessoa: Pessoa
+): any {
+  caracteres = "Hello";
+  numero = 50;
+  array = ["abelha", "macaco", "cachorro"];
+  arraynum = [4, 5, 6];
+  pessoa = new Pessoa("Bob", 30);
 
-    return     caracteres = "Hello", numero = 50, array = ["abelha", "macaco", "cachorro"], arraynum = [4,5,6], pessoa = new Pessoa("Bob",30)
+  return (
+    (caracteres = "Hello"),
+    (numero = 50),
+    (array = ["abelha", "macaco", "cachorro"]),
+    (arraynum = [4, 5, 6]),
+    (pessoa = new Pessoa("Bob", 30))
+  );
 }
-
-
-
 
 // Imprimir valores antes da modificação
 console.log("Valores antes da modificação:");
