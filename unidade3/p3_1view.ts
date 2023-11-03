@@ -1,7 +1,6 @@
 import * as readline from 'readline';
 import { Search } from './p3_1';
 
-// Função para ler as palavras do arquivo de texto e armazená-las em um vetor
 function lerArquivoEArmazenarEmVetor(salmo23: string): string[] {
     const fs = require('fs');
   try {
@@ -15,14 +14,11 @@ function lerArquivoEArmazenarEmVetor(salmo23: string): string[] {
   }
 }
 
-// Nome do arquivo de texto
 const salmo23 = './unidade3/salmo23.txt'; 
 
-// Ler as palavras do arquivo e armazená-las em um vetor
 const palavras = lerArquivoEArmazenarEmVetor(salmo23);
 
 if (palavras.length > 0) {
-  // Crie uma instância da classe Search
   const search = new Search<string>();
 
   const rl = readline.createInterface({
@@ -31,7 +27,6 @@ if (palavras.length > 0) {
   });
 
   rl.question('Digite a palavra que deseja buscar: ', (palavraABuscar) => {
-    // Use o método de busca sequencial
     const posicao = search.sequential(palavraABuscar, palavras);
 
     if (posicao !== -1) {
