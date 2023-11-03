@@ -5,14 +5,14 @@ function min(array:number[]):number {
   }
   
 
-function alternativeSolutionMax(array: number[], max = 0):number {
+function alternativeSolutionMin(array: number[], min = 0):number {
     return array.length === 0
-      ? max
-      : alternativeSolutionMax(array.slice(1), array[0] > max ? array[0] : max);
+      ? min
+      : alternativeSolutionMin(array.slice(1), array[0] > min ? array[0] : min);
   }
 
 console.log(min([1, 5, 10, 25, 16, 18])); // 1
-console.log(alternativeSolutionMax([1, 5, 10, 25, 16, 18])); // 25
+console.log(alternativeSolutionMin([1, 5, 10, 25, 16, 18])); // 25
 
 /*            Array.prototype.slice()
 O método slice() retorna uma cópia de parte de um array a partir de um subarray criado entre as posições início e fim (fim não é incluído) de um array original. O Array original não é modificado.
