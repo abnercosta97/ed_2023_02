@@ -24,7 +24,8 @@
     "doisdois": "ts-node ./unidade2/exer2_2",
     "doissete": "ts-node ./unidade2/exer2_7",
     "tcdoisdois": "ts-node ./unidade2/tc2_2",
-    "treisum": "ts-node ./unidade3/p3_1view.ts"
+    "treisum": "ts-node ./unidade3/p3_1view.ts",
+    "treisdois": "ts-node ./unidade3/p3_2view.ts"
   },
   "keywords": [],
   "author": "",

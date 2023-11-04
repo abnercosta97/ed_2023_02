@@ -30,9 +30,47 @@ class Search<T>{
         } else{
             v.pop();
             return pos;
-        }                     
+        }
     }
-}
+        
+        binary(e:T, v:T[]):number{
+            let start = 0;
+            let end = v.length-1;
+            let passos = 0;
+       
+            while( start <= end ){
+                let middle = Math.floor((start + end)/2);
+                passos++; 
+                if (v[middle] == e){
+                    console.log(`Número de passos de comparação: ${passos}`);
+                    return middle
+                } else if(v[middle]>e){
+                            end = middle-1;
+                       } else {
+                            start = middle+1;
+                       }
+                middle = Math.floor((start+end)/2);
+            }
+            return -1;
+        }
+    
+        binary_r(e:T, v:T[], start:number, end:number):number{ 
+            let middle = Math.floor((start+end)/2);   
+            if (start > end){    
+                return -1;
+            } else if (v[middle] >e ){
+                    return this.binary_r(e, v, start, middle-1);
+            } else if (v[middle] <e ){                           
+                    return this.binary_r(e,v, middle+1, end);
+            } else {
+                    return middle;
+            }
+        }
+    
+    
+    
+    }
+
     export{
         Search
     }
