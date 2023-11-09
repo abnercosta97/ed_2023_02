@@ -14,7 +14,7 @@ function lerArquivoEArmazenarEmVetor(salmo23: string): string[] {
   }
 }
 
-const salmo23 = './unidade3/salmo23.txt'; 
+const salmo23 = './unidade3/ts.txt'; 
 
 const palavras = lerArquivoEArmazenarEmVetor(salmo23);
 
